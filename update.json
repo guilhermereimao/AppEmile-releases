@@ -1,8 +1,8 @@
 {
-    "version":  "2.8.36",
-    "releasedAt":  "2026-11-10T23:27:52.1249780Z",
-    "notes":  "Unidade 100g no cadastro e nos materiais; feed de atualizacao publico por padrao (configura uma vez e pronto).",
-    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.8.36/SuperGestor-USER-2.8.36.zip",
-    "sha256":  "5a92e9cc090463d432cb6b354057b2fa4084c0e34ef998afe494f5a2144cd487",
+    "version":  "2.9.0",
+    "releasedAt":  "2026-11-11T23:02:08.9150810Z",
+    "notes":  "SuperGestor 2.9.0\n\n- Som \u0026 Avisos: radio da loja com playlist do YouTube, avisos por voz, chamada de funcionario e promocoes no telao.\n- Cancelamento de venda completo: devolve estoque, corrige caixa e fiado, cancela a NFC-e e registra na auditoria.\n- Margem \u0026 CMV com custo congelado no item da venda.\n- Backup: ensaio de restauracao (abre a copia em modo leitura) e download da copia para guardar fora do PC.\n- Fiscal: QR Code/CSC (versao 2) no infNFeSupl e imposto por produto (CST/CSOSN do cadastro).\n- Produto vencido: o PDV marca no carrinho e a venda so passa com o PIN do gerente (fica na auditoria).\n- Auditoria de caixa (abrir/fechar/sangria/suprimento), usuarios (sem PIN) e compras.\n- Servidor da loja fora: tela amigavel com reconexao automatica e aviso quando volta.\n- Dependencias e CI enxutos: 233 -\u003e 49 pacotes diretos e o build do GitHub Actions verde.\n\nAtualize extraindo o ZIP em C:\\SuperGestor. O banco e as fotos ficam em %PROGRAMDATA%\\SuperGestor e nao sao substituidos.",
+    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.9.0/SuperGestor-USER-2.9.0.zip",
+    "sha256":  "5d2cc703221855c0e429a7c40b654a078a070c320bb7e60b06c00a823fe69e40",
     "mandatory":  false
 }
