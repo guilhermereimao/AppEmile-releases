@@ -1,8 +1,8 @@
 {
-    "version":  "2.9.0",
-    "releasedAt":  "2026-11-11T23:02:08.9150810Z",
-    "notes":  "SuperGestor 2.9.0\n\n- Som \u0026 Avisos: radio da loja com playlist do YouTube, avisos por voz, chamada de funcionario e promocoes no telao.\n- Cancelamento de venda completo: devolve estoque, corrige caixa e fiado, cancela a NFC-e e registra na auditoria.\n- Margem \u0026 CMV com custo congelado no item da venda.\n- Backup: ensaio de restauracao (abre a copia em modo leitura) e download da copia para guardar fora do PC.\n- Fiscal: QR Code/CSC (versao 2) no infNFeSupl e imposto por produto (CST/CSOSN do cadastro).\n- Produto vencido: o PDV marca no carrinho e a venda so passa com o PIN do gerente (fica na auditoria).\n- Auditoria de caixa (abrir/fechar/sangria/suprimento), usuarios (sem PIN) e compras.\n- Servidor da loja fora: tela amigavel com reconexao automatica e aviso quando volta.\n- Dependencias e CI enxutos: 233 -\u003e 49 pacotes diretos e o build do GitHub Actions verde.\n\nAtualize extraindo o ZIP em C:\\SuperGestor. O banco e as fotos ficam em %PROGRAMDATA%\\SuperGestor e nao sao substituidos.",
-    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.9.0/SuperGestor-USER-2.9.0.zip",
-    "sha256":  "5d2cc703221855c0e429a7c40b654a078a070c320bb7e60b06c00a823fe69e40",
+    "version":  "2.9.1",
+    "releasedAt":  "2026-11-12T02:30:15.6161647Z",
+    "notes":  "SuperGestor 2.9.1\n\n- Desconto acima do limite agora e barrado no SERVIDOR: o limite fica gravado na loja (padrao 10%) e, acima dele, a venda so passa com o PIN de um gerente ativo. O PIN e o valor ficam na auditoria. Antes a trava era so no navegador e podia ser burlada.\n- Configuracoes \u003e Regras do PDV: o campo de desconto grava no servidor e mostra o numero real usado pelo caixa (so ADMIN/MANAGER altera).\n- Chamada do telao: corrigida a reserva do comando, que vencia na hora por causa do fuso horario e podia fazer o mesmo aviso ser falado duas vezes.\n- Pacote USER: agora copia todos os modulos do backend e o build falha se faltar algum (o 2.9.0 saiu sem fiscal.py e nao abria).\n- Release automatica: o build da tag testa o pacote (extrai, sobe o servidor e responde /health) antes de publicar.\n\nAtualize extraindo o ZIP em C:\\SuperGestor. O banco e as fotos ficam em %PROGRAMDATA%\\SuperGestor e nao sao substituidos.",
+    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.9.1/SuperGestor-USER-2.9.1.zip",
+    "sha256":  "c5282aa985e5f620d129161c8a4bb771ab4783b8179e421b8d5470019f43847d",
     "mandatory":  false
 }
