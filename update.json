@@ -1,8 +1,8 @@
 {
-    "version":  "2.9.1",
-    "releasedAt":  "2026-11-12T02:30:15.6161647Z",
-    "notes":  "SuperGestor 2.9.1\n\n- Desconto acima do limite agora e barrado no SERVIDOR: o limite fica gravado na loja (padrao 10%) e, acima dele, a venda so passa com o PIN de um gerente ativo. O PIN e o valor ficam na auditoria. Antes a trava era so no navegador e podia ser burlada.\n- Configuracoes \u003e Regras do PDV: o campo de desconto grava no servidor e mostra o numero real usado pelo caixa (so ADMIN/MANAGER altera).\n- Chamada do telao: corrigida a reserva do comando, que vencia na hora por causa do fuso horario e podia fazer o mesmo aviso ser falado duas vezes.\n- Pacote USER: agora copia todos os modulos do backend e o build falha se faltar algum (o 2.9.0 saiu sem fiscal.py e nao abria).\n- Release automatica: o build da tag testa o pacote (extrai, sobe o servidor e responde /health) antes de publicar.\n\nAtualize extraindo o ZIP em C:\\SuperGestor. O banco e as fotos ficam em %PROGRAMDATA%\\SuperGestor e nao sao substituidos.",
-    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.9.1/SuperGestor-USER-2.9.1.zip",
-    "sha256":  "c5282aa985e5f620d129161c8a4bb771ab4783b8179e421b8d5470019f43847d",
+    "version":  "2.10.0",
+    "releasedAt":  "2026-11-12T19:56:46.0939833Z",
+    "notes":  "SuperGestor 2.10.0\n\n- Devolucao parcial (F10): agora da para devolver item a item de uma venda, sem cancelar a compra inteira. Escolha a venda, informe quanto voltou de cada produto e confirme com o PIN do gerente.\n- O estoque volta so do que o cliente trouxe, a venda cai pelo valor devolvido, o caixa aberto registra a saida e o fiado em aberto e reduzido ou quitado. Tudo fica na auditoria.\n- Mapa de Cotacao de Precos: nova aba para listar o que falta (Marca e Quantidade), imprimir em A4 paisagem e coletar o preco de 3 a 5 vendedores lado a lado, com numeracao continua e rascunho salvo.\n- No modulo Impressao ha o mesmo mapa em branco: escolha 3 a 5 vendedores, 8 a 20 linhas por folha e 1 a 6 folhas.\n- Relatorios de vendas, Curva ABC e margem/CMV descontam o que foi devolvido.\n\nAtualize extraindo o ZIP em C:\\SuperGestor. O banco e as fotos ficam em %PROGRAMDATA%\\SuperGestor e nao sao substituidos.",
+    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.10.0/SuperGestor-USER-2.10.0.zip",
+    "sha256":  "a967c7f343f175101c5a188a4d032814e7cd5b99d8a42fd89209363b853ac7ca",
     "mandatory":  false
 }
