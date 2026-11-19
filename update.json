@@ -1,8 +1,8 @@
 {
-    "version":  "2.11.0",
-    "releasedAt":  "2026-11-12T20:32:01.9357025Z",
-    "notes":  "SuperGestor 2.11.0\n\n- Atualizacao automatica: no centro de atualizacoes, Atualizar",
-    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.11.0/SuperGestor-USER-2.11.0.zip",
-    "sha256":  "5d939547d67d78b9a0c24ff465e3487f3721c15851e7121140fcd5c5e12cc4dc",
+    "version":  "2.12.0",
+    "releasedAt":  "2026-11-19T13:59:33.8714763Z",
+    "notes":  "Versao 2.12.0: integracao de IA, conectores, comandos assistidos e correcao da atualizacao automatica.",
+    "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.12.0/SuperGestor-USER-2.12.0.zip",
+    "sha256":  "07d77800f8be7b0712f8bc43d715cf98a36233abf2310e005b530def1d960527",
     "mandatory":  false
 }
