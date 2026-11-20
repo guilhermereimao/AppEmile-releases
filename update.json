@@ -1,6 +1,6 @@
 {
     "version":  "2.14.1",
-    "releasedAt":  "2026-11-20T16:08:31.1330518Z",
+    "releasedAt":  "2026-11-20T16:09:38.0492143Z",
     "notes":  "SuperGestor 2.14.1: cartazes deixam de destacar atacado LEVE X POR Y quando o total nÃ£o representa economia em relaÃ§Ã£o ao preÃ§o normal. O editor avisa sobre promoÃ§Ãµes sem vantagem.",
     "url":  "https://github.com/guilhermereimao/AppEmile-releases/releases/download/v2.14.1/SuperGestor-USER-2.14.1.zip",
     "sha256":  "a7b9011957ee8ea863dc9f4c6f8928800ffe271bed4ea63f1485b168aff6e014",
